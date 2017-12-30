@@ -14,7 +14,7 @@ body {
 div {
   padding: .5rem;
   text-align: center;
-  margin: 1em;
+  margin: 1.25em;
 }
 
 .btn {
@@ -59,6 +59,7 @@ div {
   background-color: #fff;
   color: #000;
   border-color: #000;
+  border-width: 8px;
 }
 
 .btn-ghost:hover {

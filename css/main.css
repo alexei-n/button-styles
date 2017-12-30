@@ -7,10 +7,6 @@ html {
   box-sizing: inherit;
 }
 
-body {
-  margin: 0;
-}
-
 div {
   padding: .5rem;
   text-align: center;
@@ -18,13 +14,16 @@ div {
 }
 
 div a {
-  background-color: #333;
   color: #fff;
   padding: .75em;
   border-radius: 8px;
-  border-width: 3px;
   text-decoration: none;
   font-size: 1.125rem;
+}
+
+.btn {
+  background-color: #333;
+  color: #fff;
   display: inline;
 }
 
@@ -59,7 +58,7 @@ div a {
 .btn-ghost {
   background-color: #fff;
   color: #000;
-  border-color: #000;
+  border-color: #fff;
   border-width: 8px;
 }
 

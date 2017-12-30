@@ -7,7 +7,44 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
 div {
   padding: .5rem;
   text-align: center;
+  margin: 1em;
+}
+
+div a {
+  background-color: #000;
+  color: #fff;
+  padding: .4em .75em .3em;
+  border-radius: 8px;
+  border-width: 3px;
+  text-decoration: none;
+  font-size: 1.125rem;
+}
+
+.btn-small {
+  font-size: .875rem;
+}
+
+.btn-big {
+  font-size: 1.5rem;
+}
+
+.btn-subtle {
+  background-color: #ccc;
+}
+
+.btn-warning {
+  background-color: #f33;
+}
+
+.btn-ghost {
+  background-color: #fff;
+  color: #000;
+  border-color: #000;
 }

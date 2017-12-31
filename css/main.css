@@ -15,11 +15,12 @@ div {
 
 div a {
   color: #fff;
-  padding: .4em .75em;
+  padding: .4em .75em .3em;
   border-radius: 8px;
   text-decoration: none;
   font-size: 1.125rem;
   display: inline-block;
+  border: 3px solid #000;
 }
 
 .btn {
@@ -42,14 +43,17 @@ div a {
 
 .btn-subtle {
   background-color: #ccc;
+  border-color: #ccc;
 }
 
 .btn-subtle:hover {
   background-color: #666;
+  border-color: #666;
 }
 
 .btn-warning {
   background-color: #f33;
+  border-color: #f33;
 }
 
 .btn-warning:hover {
@@ -59,7 +63,6 @@ div a {
 .btn-ghost {
   background-color: #fff;
   color: #000;
-
 }
 
 .btn-ghost:hover {

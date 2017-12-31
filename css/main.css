@@ -10,21 +10,22 @@ html {
 div {
   padding: .5rem;
   text-align: center;
-  margin: 1em;
+
 }
 
 div a {
   color: #fff;
-  padding: .75em;
+  padding: .4em .75em;
   border-radius: 8px;
   text-decoration: none;
   font-size: 1.125rem;
+  display: inline-block;
 }
 
 .btn {
   background-color: #333;
   color: #fff;
-  display: inline;
+  display: inline-block;
 }
 
 .btn:hover {
@@ -58,8 +59,7 @@ div a {
 .btn-ghost {
   background-color: #fff;
   color: #000;
-  border-color: #fff;
-  border-width: 8px;
+
 }
 
 .btn-ghost:hover {
